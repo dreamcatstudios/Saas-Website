@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ri-menu-line {
+  font-size: 1.2rem;
+}
+
+header {
+  padding: 1rem 2rem 0 2rem;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.hero--elements {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  row-gap: 2rem;
+}
+
+.hero--section h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.hero--section p {
+  text-align: center;
+  color: #2d2f31;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.hero--section img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Feature Section */
+
+.green--button {
+  background-color: #e0f8de;
+  padding: 0.4rem 7rem;
+  width: 2rem;
+  border-radius: 50px;
+  font-size: 0.6rem;
+  color: #004642;
+  text-align: center;
+  display: flex;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.line {
+  border: 1px solid gray;
+}
+
+.feature--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1.25rem;
+}
